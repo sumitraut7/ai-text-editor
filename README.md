@@ -9,6 +9,7 @@ This project provides an AI-powered text editing tool capable of refining text b
 - **Neutralization** – Adjust the tone to be more neutral.
 - **Paraphrasing** – Reword sentences while maintaining meaning.
 - **Simplification** – Make complex text more understandable.
+- **Default GEC Mode** – By default, the model will perform grammatical error correction if no specific prompt is provided.
 
 ## Setup
 
@@ -67,8 +68,12 @@ This project provides an AI-powered text editing tool capable of refining text b
 **Output:**  
 *For example, countries with a lot of deserts can transform their desert to increase their habitable land and use irrigation to provide clean water to the desert.*  
 
+### Default Mode (Grammar Error Correction)
+If no specific prompt is provided, the model will automatically correct grammatical errors in the input text.
+
 ## Model Information
 This application utilizes the grammar correction model `sumitraut7/gec_coedit_c4200m` from Hugging Face.
+
 
 ---
 
